@@ -1,11 +1,11 @@
-# AI-Powered Brokerage Assistant
+# AI Financial Agent
 
-A browser extension and backend system that provides AI-assisted trading automation with compliance checks.
+A browser extension and backend system that provides AI-assistance for financial decisions.
 
 ## Features
 
-- **Real-time UI Analysis**: Captures and analyzes brokerage UI elements and screenshots
-- **AI-Powered Suggestions**: Uses LLMs to recommend compliant trading actions
+- **Real-time UI Analysis**: Captures and analyzes UI elements and screenshots
+- **AI-Powered Suggestions**: Uses LLMs to recommend actions
 - **Policy Engine**: Validates actions against compliance rules before execution
 - **Audit Trail**: Maintains a complete record of all actions and decisions
 - **Dashboard**: Visual interface for monitoring and reviewing automated activities
@@ -103,34 +103,3 @@ A browser extension and backend system that provides AI-assisted trading automat
 
 4. Load the extension in your browser (development mode)
 
-## Development
-
-### Code Style
-
-- TypeScript/JavaScript: ESLint + Prettier
-- Python: Black + isort + flake8
-
-### Testing
-
-```bash
-# Run unit tests
-npm test
-
-# Run e2e tests
-npm run test:e2e
-
-# Run Python tests
-pytest
-```
-
-## License
-
-MIT
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
